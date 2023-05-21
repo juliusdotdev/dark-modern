@@ -12,6 +12,9 @@ function M._load(options)
 
     h('Normal', { fg = p.text, bg = maybe.base })
 
+    -- kyazdani42/nvim-tree.lua
+    h('NvimTreeNormal', { fg = p.text, bg = maybe.base })
+
     for group, color in pairs(options.highlight_groups) do
         h(group, color)
     end

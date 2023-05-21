@@ -3,8 +3,10 @@ local M = {}
 local defaults = {
     disable_background = false,
     groups = {
-        background = 'background',
+        background = 'base',
+        panel = 'surface'
     },
+    highlight_groups = {},
 }
 
 M.options = {}
